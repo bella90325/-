@@ -6,7 +6,7 @@ body         {margin: 24px 10px;
 #container   {width: 960px;
               margin: auto;} 
 
-#header      {margin-bottom: 0px;}
+#header      {margin-bottom: 10px;}
 
 #headerpost  {margin-bottom: 30px;}
 
@@ -26,7 +26,7 @@ body         {margin: 24px 10px;
 #site   {float: left;}
 #site h1 {margin: 0;}
 #site img {vertical-align: bottom;
-            width: 400px;}
+            width: 332px;}
 
 /* ### HEADER NAV ###*/
 #nav  {float: right;
@@ -47,7 +47,7 @@ body         {margin: 24px 10px;
            border-bottom: solid 3px transparent;
            color: #000000;}
 
-#nav li a:hover  {border-bottom-color: #ff4d4d;}
+#nav li a:hover  {border-bottom-color: #ff1e97;}
 
 #header   {overflow: hidden;}
 
@@ -55,7 +55,7 @@ body         {margin: 24px 10px;
 
 #headerpost img  {float: left;
                   vertical-align: bottom;
-                  width: 630px;}
+                  width: 620px;}
 
 /* ### HEADERPOST LEAD###*/
 #headerpost #lead  {float: left;
@@ -79,12 +79,12 @@ body         {margin: 24px 10px;
                      text-decoration: none;}
 
 #headerpost   {background-color: #ff9999 ;
-               background: -webkit-gradient(linear, left top, left bottom, from(#ff9999), to(#ffcc99));
-               background: -webkit-linear-gradient( #ff9999 0%, #ffcc99 100%);
-               background: -moz-linear-gradient(#ff9999 0%, #ffcc99 100%);
-               background: -o-linear-gradient(#ff9999 0%, #ffcc99 100%);
-               background: -ms-linear-gradient(#ff9999 0%, #ffcc99 100%);
-               background: linear-gradient(#ff9999 0%, #ffcc99 100%);
+               background: -webkit-gradient(linear, left top, left bottom, from(#ff9999), to(#ffb399));
+               background: -webkit-linear-gradient( #ff9999 0%, #ffb399 100%);
+               background: -moz-linear-gradient(#ff9999 0%, #ffb399 100%);
+               background: -o-linear-gradient(#ff9999 0%, #ffb399 100%);
+               background: -ms-linear-gradient(#ff9999 0%, #ffb399 100%);
+               background: linear-gradient(#ff9999 0%, #ffb399 100%);
                overflow: hidden;}
                
 
@@ -94,11 +94,7 @@ body         {margin: 24px 10px;
            vertical-align: bottom;
            border:none;}
 
-.post h3  {font-size: 12px;
-           margin: 3px 0 0; 
-           color:#ff0000 }
-
-.post h2  {font-size: 14px;
+.post h2  {font-size: 16px;
            margin: 5px 0 0;}
 
 .post p   {font-size: 12px;
@@ -111,7 +107,7 @@ body         {margin: 24px 10px;
                 color: #ffffff;
                 font-size: 14px;
                 font-family: 'Macen Pro', Helvetica, Arial, sans-serif;
-                background-color: #ff8080;
+                background-color: #666666;
                 background-image: url(img/more.png);
                 background-size: 16px;
                 background-repeat: no-repeat;
@@ -126,7 +122,7 @@ body         {margin: 24px 10px;
 .post a:hover {background-color: #cfffb2}
 
 /* ### FOOTER ###*/
-#footer  {background-color: #ff4d4d;
+#footer  {background-color: #000000;
          padding: 5px;}
 
 
@@ -161,7 +157,7 @@ body         {margin: 24px 10px;
                border-right: solid 1px #ffffff;
                text-align: center;
                text-decoration: none;
-             color: #000000;
+             color: #ff1e97;
              font-weight: bold;
              padding-right: 6px;
              margin-right: 3px;}
